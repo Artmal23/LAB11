@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Практична робота №11</title>
+        <style>
+           
+        </style>
+    </head>
+    <body>
+        
+        <div class="yelb">
+                
+        </div>
+        <script src="weather.js">async function logJSONData() {
+            const response = fetch("https://api.openweathermap.org/data/2.5/weather?q=london&appid=7b4f5cceb1e65adb013e08bc2f1149c0");
+            const jsonData = response.json();
+            console.log(jsonData);
+          }
+          </script>
+        
+
+        
+    </body>
+</html>
